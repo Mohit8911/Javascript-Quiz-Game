@@ -1,0 +1,140 @@
+body {
+    font-family:cursive;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+#title{
+    color: red;
+    font-size: 5em;
+}
+
+#options{
+    margin:5px;
+}
+
+#quiz-container1 {
+    background: linear-gradient(to right, #25ff66, #4c39fa);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    min-width: 400px;
+    width: fit-content;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#quiz-container2 {
+    background: linear-gradient(to right, #ff0000, #3b20efb0);
+    padding: 20px;
+    color: white;
+    display: none;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    min-width: 600px;
+    width: fit-content;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#scoreDisplay {
+    float: right;
+    width:fit-content;
+}
+
+#quiz-container3 {
+    background: linear-gradient(to right, #25ff66, #4c39fa);
+    padding: 20px;
+    display: none;
+    color: #ff0000;
+    font-size: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    min-width: 400px;
+    min-height: 400px;
+    width: fit-content;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+#line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label{
+    font-size: 20px;
+    padding: 5px;
+}
+.difficulty-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.difficulty-button {
+    padding: 10px 5px;
+    margin: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    /* text-decoration: none; */
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.difficulty-button:hover {
+    background-color: #61f3cc;
+}
+
+#start-btn {
+    padding: 10px;
+    background-color: rgb(14, 163, 14);
+    color:#f0f0f0;
+    cursor: pointer;
+    border-width: 0px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+#line button{
+        padding: 10px;
+        background-color: rgb(14, 163, 143);
+        color: #000000;
+        font-size: medium;
+        font-weight: bold;
+        border-width: 1px;
+        cursor: pointer;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.404);
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
